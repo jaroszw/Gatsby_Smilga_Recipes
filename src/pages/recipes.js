@@ -1,9 +1,12 @@
 import React from "react"
+import AllRecipes from "../components/AllRecipes"
 
 export default function Recpies() {
   return (
     <div>
-      <h1>Recipes</h1>
+      <main className="page">
+        <AllRecipes />
+      </main>
     </div>
   )
 }
