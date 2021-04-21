@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Recipes from "../components/RecipesLis"
 
 export default function Contact({

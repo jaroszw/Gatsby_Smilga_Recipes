@@ -1,5 +1,4 @@
 import React from "react"
-import Layout from "../components/Layout"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link, graphql } from "gatsby"
 import Recipes from "../components/RecipesLis"

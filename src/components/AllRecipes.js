@@ -23,12 +23,12 @@ const query = graphql`
         title
         cookTime
         prepTime
+        id
         content {
           tags
         }
         image {
           gatsbyImageData(placeholder: TRACED_SVG, layout: CONSTRAINED)
-          id
         }
       }
     }
