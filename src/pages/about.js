@@ -2,6 +2,7 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { Link, graphql } from "gatsby"
 import Recipes from "../components/RecipesLis"
+import SEO from "../components/SEO"
 
 export default function About({
   data: {
@@ -10,6 +11,8 @@ export default function About({
 }) {
   return (
     <div>
+      <SEO title="About Page" description="This is about page" />
+
       <main className="page">
         <section className="about-page">
           <article>
